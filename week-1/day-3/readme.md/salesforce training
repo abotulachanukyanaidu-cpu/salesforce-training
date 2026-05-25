@@ -1,0 +1,95 @@
+1. Difference Between App, Object, Record, and Field
+
+Term	Meaning	Example
+
+App  : A collection of related tools, tabs, and objects used for a specific business purpose	College Management App
+Object :	A database table that stores related information	Student Object
+Record:	A single row of data inside an object	One student’s details
+Field	: A column that stores specific information in a record	Student Name, Roll Number
+
+Simple Understanding
+App → Complete system
+Object → Table
+Record → One entry
+Field → One piece of information 
+
+2. Standard vs Custom Objects
+Standard Objects	Custom Objects
+Already provided by Salesforce	Created by users
+Used for common business processes	Used for organization-specific needs
+Examples: Account, Contact, Opportunity	Examples: Student, Course, Faculty
+Cannot be deleted permanently	Can be modified or deleted
+
+Example
+Standard Object: Account
+Custom Object: Student__c
+
+3. College Data Model
+Objects Used
+1. Student
+2. Course
+3. Faculty
+4. Department
+5. Attendance
+Relationships
+One Department has many Students
+One Faculty teaches many Courses
+One Student has many Attendance Records
+One Course has many Students
+
+College Data Model Diagram
+Department
+   |
+   | One-to-Many
+   ↓
+Student -------- Attendance
+   |
+   | Many-to-One
+   ↓
+Course -------- Faculty
+Explanation
+
+Student Object stores student details.
+Course Object stores course information.
+Faculty Object stores teacher details.
+Attendance Object stores attendance status.
+Department Object stores department information.
+
+4. Formula Fields
+What is a Formula Field?
+A formula field automatically calculates values based on other fields
+Example 1: Total Marks Percentage
+Formula
+\text{Percentage} = \frac{\text{Total Marks}}{600} \times 100
+Explanation
+Calculates percentage automatically.
+If marks change, percentage updates automatically.
+Example 2: Full Name Formula
+Formula
+First_Name & " " & Last_Name
+Explanation
+Combines first name and last name into one field.
+
+6. Validation Rules
+What is a Validation Rule?
+Validation rules prevent users from entering invalid data.
+Example 1: Age Validation
+Rule
+Age < 18
+Error Message
+Student age must be greater than or equal to 18.
+Explanation
+Prevents saving records if age is below 18.
+Example 2: Email Validation
+Rule
+NOT(CONTAINS(Email,"@"))
+Error Message
+Enter a valid email address.
+Explanation
+Ensures email contains “@”.
+
+6. Reflection – Why Structured Enterprise Data Matters
+Structured enterprise data is important because it helps organizations store, manage, and access information efficiently.
+ In Salesforce, structured data improves accuracy, reduces duplication, and supports better decision-making. It also helps
+employees work faster by organizing records properly and maintaining relationships between objects. In a college system,
+structured data helps manage students, courses, attendance, and faculty details in an organized manner.
