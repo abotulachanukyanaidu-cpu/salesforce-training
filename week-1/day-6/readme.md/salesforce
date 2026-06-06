@@ -1,0 +1,35 @@
+1. What is SOQL?
+I learned that SOQL is used to retrieve records from Salesforce objects.
+
+2. What is an Apex Trigger?
+I learned that an Apex Trigger automatically executes code when data is created, updated, or deleted.
+
+3. 
+Flow vs Trigger:
+I understood that Flow is a no-code automation tool, while Triggers use Apex code for advanced automation.
+Before vs After Trigger:
+I learned that Before Triggers modify records before saving, while After Triggers perform actions after records are saved.
+
+4. 
+Trigger Use Case 1:
+I used a Trigger to automatically generate a student registration number.
+ Trigger Use Case 2:
+I used a Trigger to validate student age before saving the record.
+ Trigger Use Case 3:
+I used a Trigger to update the total fee after a payment is made.
+Trigger Use Case 4:
+I used a Trigger to send a notification when a new student record is created.
+Trigger Use Case 5:
+I used a Trigger to prevent duplicate student records from being saved.
+
+5. 
+Query Example 1:
+I wrote a query to retrieve all student records.
+Query Example 2:
+I wrote a query to find students enrolled in a specific course.
+Query Example 3:
+I wrote a query to display students with pending fees.
+
+6.
+Reflection:
+I realized that enterprise systems automatically react to data changes to improve accuracy, consistency, and efficiency.
