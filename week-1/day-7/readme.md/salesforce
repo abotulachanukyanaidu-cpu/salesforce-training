@@ -1,0 +1,26 @@
+1. Why Testing Matters
+I learned that testing is important to ensure the system works correctly and without errors.
+
+2. What is Asynchronous Apex?
+I learned that Asynchronous Apex runs tasks in the background to improve system performance.
+
+3. What is Salesforce DX?
+I learned that Salesforce DX is a development tool used to build, test, and deploy Salesforce applications.
+
+4. Complete System Workflow
+I designed the workflow from student admission to course enrollment, fee payment, and report generation.
+
+5. Important Test Case 1
+I tested whether a new student record is created successfully.
+Important Test Case 2
+I tested whether invalid data is blocked by validation rules.
+Important Test Case 3
+I tested whether the fee payment updates the student's record correctly.
+ Important Test Case 4
+I tested whether email notifications are sent after admission approval.
+ Important Test Case 5
+I tested whether reports display accurate student and fee details.
+
+6. Reflection
+I realized that enterprise software development needs structured workflows to ensure quality, reliability, and efficient 
+teamwork.
