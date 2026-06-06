@@ -1,0 +1,34 @@
+1. What is Apex?
+I learned that Apex is Salesforce's programming language used to create custom business logic.
+
+2. Flow vs Apex
+I understood that Flow is used for automation without coding, while Apex is used for advanced coding tasks.
+Configuration vs Coding
+I learned that configuration uses built-in tools, whereas coding is used for custom requirements.
+
+3. Real Example 1
+I used Apex when complex student fee calculations could not be handled by Flow.
+ Real Example 2
+I used Apex to send customized notifications based on multiple conditions.
+Real Example 3
+I used Apex to integrate the College Management System with external applications.
+
+4.
+CRM:
+I used CRM to manage student, faculty, and admission information efficiently.
+Objects:
+I created objects such as Student, Faculty, Course, and Fee to store college data.
+Relationships:
+I linked the objects using relationships to connect related records.
+Validation:
+I added validation rules to ensure only correct and complete data is saved.
+Flow:
+I used Flow to automate tasks like admission approval and email notifications.
+Apex:
+I used Apex for advanced business logic that could not be achieved through Flow.
+
+5. Pseudocode
+I wrote pseudocode to plan the logic before implementing the solution.
+
+6. Reflection
+I realized that enterprise systems eventually need programming to handle complex business requirements.
