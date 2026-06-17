@@ -1,0 +1,13 @@
+1.Why testing matters:
+    I believe testing matters because it helps me find errors early and makes the system more reliable.
+2. What is asynchronous processing:   
+    Asynchronous processing means tasks can run in the background without making the main program wait.
+3. Important test cases: 
+     Important test cases are those that check correct results, error handling, timing, and system behavior under different 
+     conditions.
+4.Async use cases:
+     I use asynchronous processing in cases like sending emails, processing payments, file uploads, and notifications.
+5. Reliability discussion:
+     Reliability is important to me because it ensures the system works consistently and handles failures properly.
+6. Reflection:
+     From this, I learned that testing asynchronous systems carefully is necessary for building dependable applications.
